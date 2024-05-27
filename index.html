@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <div id="cabeçalho">
+            <h1>DncWeather</h1>
+        </div>
+        <div id="link">
+        <a href=""> <b>Endereços</b> </a> 
+        <a href=""> <b>Previsão do tempo</b> </a>    
+        </div>
+    </div>
+    <div id="nuvem">
+        <div>
+            <h1>Descubra Mais com Precisão: <br> 
+                Previsões do Tempo e endereços <br>
+                em tempo real.</h1>
+        </div>
+        <div id="imagem">
+            <img src="nuvem.svg" width="180px" >
+        </div>
+    </div>
+    <div id="formulario">
+        <label for="">Primeiro nome:</label> <br>
+        <input class="input" type="text"  placeholder="Insira seu primeiro nome:"> <br>
+        <label for="">E-mail:</label> <br>
+        <input class="input"  type="text" placeholder="Insira seu E-mail:"> <br>
+        <label for="">Digite o cep:</label> <br>
+        <input  type="text"  placeholder="Insira o cep:" value="" id="cep"> <br>
+        <label for="">Digite a latitude e logitude para saber a previsão:</label><br>
+        <input  type="text"  placeholder="Latitude:" id="latitude"> <input id="longitude" class="input" type="text" placeholder="Logitude:"> <br>
+        <button type="button" onclick="getAddressByCep() ;getprevisao()" >Acessar</button>
+       
+    </div>
+    <div id="resultadocep">
+        <h1>Resultado da busca por CEP:</h1>
+        <img src="img.loc.svg" alt="" width="90px">
+    </div>
+    <div id="resultados">
+        <div>
+            <label for="">logradouro/nome</label> <br>
+            <input type="text" readonly id="rua"> <br>
+        </div>
+        <div>
+            <label for="">Bairro/Distrito</label><br>
+            <input type="text" readonly id="bairro"> <br>
+        </div>
+        <div>
+            <label for="">Localidade/UF</label> <br>
+             <input type="text" readonly id="cidade">
+
+        </div>
+        
+    </div>
+    <div id="resultdotempo" >
+        <h1>Previsão do tempo na região:</h1>
+        <img src="nuvem.ssol.svg" alt="" width="90px">
+    </div>
+    <div id="resutempo">
+        <input type="text" readonly id="previsao">
+    </div>
+    <div id="rodape">
+        <a href="">Termos de Uso |</a>
+        <a href="">Politica de Privacidade</a>
+
+    </div>
+    <script src="cep.js"></script>
+    
+</body>
+</html>

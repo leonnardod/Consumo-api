@@ -1,0 +1,135 @@
+
+    
+body{
+    background-color:#F2F2F2 ;
+    font-family: "inter";
+}
+#menu{
+    background-color:#0C70F2 ;
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: auto;
+    padding-top: 10px;
+}
+#cabeçalho{
+    padding-left: 35px
+    
+}
+#link a{
+   text-decoration: none;
+   color: white;
+   padding-right: 35px;
+
+}
+#link{
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 40px;
+    
+}
+#nuvem{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column: auto;
+    padding-top: 120px;
+    font-size: 20px;
+
+}
+#nuvem h1{
+    margin-left: 100px;
+}
+#imagem{
+    padding-right: 100px;
+}
+
+
+#formulario{
+    margin-top:250px;
+    margin-left: 350px;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 20px;
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    
+    
+}
+#formulario input{
+    margin-bottom: 30px;
+    background-color: #F2F2F2E5;
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    padding-left: 18px;
+    
+}
+#formulario button{
+    border: none;
+    background-color: #0C70F2;
+    width: 315px;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    
+}
+#resultadocep{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    margin-top: 200px;
+}
+#resultados{
+display: grid;
+grid-auto-flow: column;
+grid-column: auto;
+border: 1px solid;
+width: 70%;
+height: 5rem;
+background-image: linear-gradient(to bottom, #0C70F2 50%, blue 0%, white 50%);
+border-radius: 30px;
+color: white;
+padding-top: 33px;
+text-align: center;
+margin-left: 200px;
+}
+#resultados input{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    
+}
+#resultdotempo{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    margin-top: 200px;
+}
+#resutempo{
+    text-align: center;
+   
+}
+#resutempo input{
+    border-radius: 12px;
+    border-color: #0C70F2;
+    width: 700px;
+    height: 35px;
+}
+#rodape{
+    text-align: right;
+    margin-top: 300px;
+    background-color: #0C70F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 35px;
+    
+}
+#rodape a{
+    text-decoration: none;
+    color: white;
+}
+
